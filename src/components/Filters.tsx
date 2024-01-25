@@ -61,6 +61,7 @@ export function Filters() {
           <Input.Control
             id="id"
             value={id}
+            type="tel"
             onChange={(event) => setId(event.target.value)}
           />
         </Input.Root>
